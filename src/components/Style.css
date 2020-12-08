@@ -1,0 +1,131 @@
+.schedule-body {
+  display: flex;
+  box-shadow: 0 4px 6px 0 rgba(32, 33, 36, 0.28);
+  flex-direction: column;
+  margin: auto;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 30vw;
+  padding: 10vw;
+  justify-content: center;
+  /* background-color: aqua; */
+  align-items: center;
+}
+
+.schedule-text {
+  margin-bottom: 2vw;
+  margin-top: 2vw;
+}
+.attandence-body {
+  padding-top: 4vw;
+}
+.attandence-body .date-picker {
+  margin-left: 50vw;
+}
+.list-tile {
+  display: flex;
+  /* background-color: aqua; */
+  justify-content: space-between;
+  padding: 3vw;
+  margin-bottom: 1vw;
+  /* box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25); */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.list-tile .first {
+  display: flex;
+  flex-direction: column;
+}
+.list-tile img {
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+}
+.main-body {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  height: 100vh;
+  /* justify-content: center; */
+}
+.main-body .bg-img {
+  width: 100vw;
+}
+.ant-select {
+  width: 260px !important;
+}
+
+.fab {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(147deg, #008080, #a4ca49 100%);
+
+  border-radius: 50%;
+  box-shadow: 0 6px 10px 0 #666;
+  transition: all 0.1s ease-in-out;
+
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  line-height: 60px;
+
+  position: fixed;
+  right: 15px;
+  bottom: 65px;
+}
+
+.fab:hover {
+  box-shadow: 0 6px 14px 0 #666;
+  transform: scale(1.05);
+}
+.upload-photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.upload-image {
+  margin-bottom: 2vw;
+  width: 20vw !important;
+  border-radius: 50%;
+}
+.upload-btn-gp {
+  display: flex;
+  margin-bottom: 2vw;
+}
+.upload-photo button {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+.stu-loader {
+  display: flex;
+  margin-top: 10vw;
+  justify-content: center;
+}
+.time-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 3vw;
+}
+
+.google-button {
+  display: flex;
+  align-items: center;
+  color: white;
+  background: #008080;
+  border: none;
+  border-radius: 2vw;
+}
+.google-button img {
+  width: 11vw;
+  /* background: white; */
+  /* margin-left: -2vw; */
+  border-radius: 2vw;
+}
+.google-button span {
+  font-weight: bold;
+  margin-left: 2vw;
+}
+.google-button:focus {
+  outline: 0;
+}

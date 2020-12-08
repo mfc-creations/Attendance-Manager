@@ -1,0 +1,51 @@
+.head-text {
+  font-size: 6.4vw;
+  font-weight: 500;
+  font-family: Roboto;
+  color: #000000;
+}
+.body-text {
+  font-size: 4.26vw;
+  font-weight: 400;
+  font-family: Roboto;
+  color: #000000;
+}
+.body-text-bold {
+  font-size: 4.26vw;
+  font-weight: bold;
+  font-family: Roboto;
+  color: #000000;
+}
+.m-t-16 {
+  margin-top: 4.26vw;
+}
+.m-t-30 {
+  margin-top: 8vw;
+}
+.m-b-30 {
+  margin-bottom: 8vw;
+}
+.m-b-24 {
+  margin-bottom: 6.4vw;
+}
+.m-t-24 {
+  margin-top: 6.4vw;
+}
+.m-b-27 {
+  margin-bottom: 7.2vw;
+}
+.m-t-50 {
+  margin-top: 13.33vw;
+}
+.m-b-20 {
+  margin-bottom: 5.33vw;
+}
+.m-t-38 {
+  margin-top: 10.13vw;
+}
+.m-b-3 {
+  margin-bottom: 3vw;
+}
+.m-l-4 {
+  margin-left: 4.64vw;
+}

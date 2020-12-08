@@ -1,0 +1,32 @@
+.disabled {
+  background-color: #cacaca !important;
+}
+.btn-type-one {
+  background-color: #006666;
+  border-radius: 6.4vw;
+  padding: 3.2vw;
+  width: 44.8vw;
+  height: 12.8vw;
+  color: white;
+  border: none;
+  font-size: 4.26vw;
+}
+.btn-type-two {
+  background-color: #006666;
+  border-radius: 6.4vw;
+  /* padding: 3.2vw; */
+  width: 25vw;
+  height: 8vw;
+  color: white;
+  border: none;
+  font-size: 4.26vw;
+}
+button:focus {
+  outline: 0;
+}
+.m-b-16 {
+  margin-bottom: 4.26vw;
+}
+.m-t-26 {
+  margin-top: 6.93vw;
+}
