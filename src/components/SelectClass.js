@@ -22,6 +22,7 @@ const SelectBatch = () => {
 
   const onNext = () => {
     storeBatch(batch);
+    localStorage.batch = batch;
     history.push("/subjects");
   };
 

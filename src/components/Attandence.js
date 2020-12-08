@@ -12,8 +12,9 @@ const Attandence = () => {
   const [times, setTimes] = useState(["10:30", "11:30"]);
   const [date, setDate] = useState();
 
-  const { batch, subject } = useContext(GlobalContext);
-
+  // const { batch, subject } = useContext(GlobalContext);
+  const batch = localStorage.batch;
+  const subject = localStorage.subject;
   function onChange(value, dateString) {
     console.log("Selected Time: ", value);
     console.log("Formatted Selected Time: ", dateString);
@@ -25,6 +26,7 @@ const Attandence = () => {
     let ref = firebase.database().ref("attandence");
     ref.on("value", (snapshot) => {
       const stu = snapshot.val();
+      console.log(stu);
       const stuList = [];
       const tm = [];
       for (let id in stu) {
@@ -80,7 +82,7 @@ const Attandence = () => {
         <span className="date-picker">
           <DatePicker onChange={onChange} onOk={onOk} />
         </span>
-        <span className="stu-loader">Attendance not taken today</span>;
+        <span className="stu-loader">Attendance not taken today</span>
       </div>
     );
   }

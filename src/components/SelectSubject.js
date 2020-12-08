@@ -23,6 +23,7 @@ const SelectSubject = () => {
 
   const onNext = () => {
     storeSubject(subject);
+    localStorage.subject = subject;
     history.push("/attendance");
   };
 

@@ -29,6 +29,7 @@ const Login = () => {
         // // The firebase.auth.AuthCredential type that was used.
         // var credential = error.credential;
         // ...
+        history.push("/department");
         console.log(error);
       });
   };
